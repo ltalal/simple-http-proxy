@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'ltalal'
+version '0.1'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter-web:2.0.3.RELEASE")
+    compile("org.apache.httpcomponents:httpclient:4.5.5")
+    compile("org.springframework.boot:spring-boot-configuration-processor:2.0.3.RELEASE")
+    compile("one.util:streamex:0.6.7")
+}
